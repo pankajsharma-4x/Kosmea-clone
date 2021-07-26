@@ -1,0 +1,174 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Upper-most section */
+.top-row{
+    margin: 15px;
+}
+.region{
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.region-au , .rgioen-us {
+    margin: 10px;
+    text-decoration: none;
+    color:#e0144c ;
+}
+.region-au:hover , .rgioen-us:hover{
+    color: grey;
+}
+.region-other{
+    margin: 10px;
+}
+.fab{
+    font-size: larger;
+    margin: 4px;
+}
+.fas{
+    text-decoration:none;
+    color: grey;
+    margin-right: 4px;
+}
+.fa{
+    color:#e0144c ; 
+}
+.icon-bottom{
+    font-size:  35px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: grey;
+}
+.icon-bottom:hover{
+    color:#e0144c  ;
+}
+
+/* Full page back-ground image */
+.main-section-background {
+    background-image: url("images/rosehip-and-rose-top-banner.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: unset;
+    min-height: 12em;
+    position: relative;
+    margin: 10px 0;
+}
+
+.current-region{
+        display: inline-block;
+        background-color: #e0144c;
+        color: #fff;
+        font-weight: bold;
+        padding: 0.4rem 0.5rem;
+}
+.free-alert{
+    background-color:#e0144c ;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+.free-alert-para{
+    padding: 1px;
+    
+}
+.button-send-message{
+    background-color: #e0144c;
+    border-radius: 20px;
+    color: white;
+    margin: 10px 0;
+}
+
+/* Drop Down Menu */
+
+.button-custom {
+    font-size: 13px;
+    border: none;
+    margin-top: 8px;
+}
+.button-shop-now{
+    border-radius: 20px;
+    background-color: #e0144c;
+    color: white;
+}
+.contact-us-left-section{
+    text-decoration: none;
+    color: #e0144c;
+}
+.contact-us-left-section:hover{
+color: grey;
+}
+.mandatory{
+    color: #e0144c;
+}
+/* Sign up Form */
+.footer-container {
+    background-color: #b62640;
+    padding: 2rem 1.8rem;
+    margin-top: 2rem;
+    overflow-x: hidden;
+    margin-bottom: 50px;
+}
+.footer-heading{
+        font-family: proximanova-regular,sans-serif;
+        font-size: 1.8rem;
+        font-weight: 200;
+        color: #fff;
+        margin: 20px 0 30px 0;
+}
+.btn-subscribe{
+    background-color: white;
+    color: #b62640;
+    width: 100%;
+}
+.small-text{
+    color: white;
+    font-size: 15px;
+}
+.links{
+    list-style: none;
+    margin: 20px;
+}
+.link{
+    text-decoration: none;
+    font-size: 15px;
+   color:grey;
+}
+.link:hover{
+    color:grey;
+
+}
+.link-extra{
+    margin-top: 20px;
+}
+.copyright{
+    text-align: center;
+    font-size: small;
+    margin: 20px 0;
+}
+
+/* Media Queries */
+@media (max-width:768px){
+    .button-shop-now{
+        background-color: white;
+        color: black;
+        border: none;
+
+     }
+    .region-au{
+        display: none;
+    } 
+    .rgioen-us{
+        display: none;
+    }
+    .custom-footer{
+        text-align: center;
+    }
+   
+    
+}
+@media (max-width:480px){
+    .country-search-bar{
+        display: none;
+     }
+}
